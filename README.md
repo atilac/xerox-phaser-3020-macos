@@ -1,5 +1,7 @@
 # Xerox Phaser 3020 on macOS 27+ (Apple Silicon)
 
+**English** · [Português](README.pt-BR.md) · [Español](README.es.md)
+
 Printing on a **Xerox Phaser 3020 / 3020BI** from a modern Mac — over **Wi-Fi**
 and over **USB** — with no Rosetta 2 and no vendor driver.
 
