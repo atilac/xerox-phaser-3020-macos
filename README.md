@@ -144,6 +144,28 @@ Letter and regenerate.
 
 ---
 
+## Wi-Fi Direct
+
+The printer can also act as its own access point — useful with no router at
+all. Enable it under **Properties → Network Settings → Wi-Fi → Wi-Fi Direct**,
+then join its network (`DIRECT-xx-<device name>`) and add the queue:
+
+```sh
+lpadmin -p Xerox_3020_WiFiDirect -E \
+        -v ipp://192.168.3.1/ipp/print \
+        -P /Library/Printers/PPDs/Contents/Resources/Xerox_Phaser_3020_USB.ppd
+```
+
+The firmware serves **IPP on this interface too**, so no PJL wrapper is needed
+here — the same reason the normal Wi-Fi path works driverless. Reuse the USB
+PPD only because it already carries the correct page geometry; its filter is
+harmless over IPP.
+
+Note that your Mac has no internet while joined to this network, and the other
+two queues are unreachable until you rejoin your normal Wi-Fi.
+
+---
+
 ## What this repo deliberately does not contain
 
 **No Xerox binaries.** Not `rastertosec`, `prefilter`, `commandtosec`,
