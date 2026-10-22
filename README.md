@@ -8,7 +8,9 @@ binaries (`i386`/`x86_64`). On Apple Silicon they fail with
 `Bad CPU type in executable`, which CUPS reports as the unhelpful
 *"Filter failed"*.
 
-Tested on **macOS 27.0.1 (26A434), Apple M5 Pro, arm64**.
+Verified end to end on **macOS 27.0.1 (26A434), Apple M5 Pro, arm64**, with a
+Phaser 3020BI on firmware `V3.50.21.03` (Sep 2021) — both the Wi-Fi queue and
+the USB queue confirmed by the printer's own fuser page counter.
 
 ---
 
