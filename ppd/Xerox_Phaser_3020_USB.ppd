@@ -1,0 +1,117 @@
+*PPD-Adobe: "4.3"
+*% Xerox Phaser 3020 - raw USB (Apple Raster wrapped in PJL)
+*% https://github.com/atilac/xerox-phaser-3020-macos
+*% SPDX-License-Identifier: MIT
+*FormatVersion: "4.3"
+*FileVersion: "1.0"
+*LanguageVersion: English
+*LanguageEncoding: ISOLatin1
+*PSVersion: "(3010.000) 0"
+*LanguageLevel: "3"
+*FileSystem: False
+*PCFileName: "XRXP3020.PPD"
+*Manufacturer: "Xerox"
+*ModelName: "Xerox Phaser 3020"
+*Product: (Xerox Phaser 3020)
+*ShortNickName: "Xerox Phaser 3020 USB"
+*NickName: "Xerox Phaser 3020 - USB (urftopjl)"
+*Throughput: "21"
+*cupsVersion: 2.0
+*cupsModelNumber: 0
+*cupsSNMPSupplies: False
+*cupsSingleFile: True
+*cupsMaxCopies: 255
+
+*% The printer accepts URF over USB only when PJL announces it.
+*cupsFilter2: "image/urf image/urf 10 /Library/Printers/Xerox/P3020/urftopjl"
+*APURFVersion: 1.3
+*APAcceptsMixedURF: True
+*cupsUrfSupported: "W8,RS600,IS1,CP1,IFU0,PQ4,OB10,V1.3"
+
+*ColorDevice: False
+*DefaultColorSpace: Gray
+*OpenUI *ColorModel/Color Mode: PickOne
+*OrderDependency: 10 AnySetup *ColorModel
+*DefaultColorModel: Gray
+*ColorModel Gray/Grayscale: "<</cupsColorSpace 18/cupsBitsPerColor 8/cupsColorOrder 0/cupsCompression 0>>setpagedevice"
+*CloseUI: *ColorModel
+
+*DefaultResolution: 600x600dpi
+*OpenUI *cupsPrintQuality/Quality: PickOne
+*OrderDependency: 10 AnySetup *cupsPrintQuality
+*DefaultcupsPrintQuality: Normal
+*cupsPrintQuality Normal: "<</cupsInteger1 4 /HWResolution[600 600]>>setpagedevice"
+*CloseUI: *cupsPrintQuality
+
+*LandscapeOrientation: Plus90
+*DefaultOutputOrder: Normal
+
+*OpenUI *PageSize/Media Size: PickOne
+*OrderDependency: 10 AnySetup *PageSize
+*DefaultPageSize: A4
+*PageSize A4: "<</PageSize[595.2756 841.8898]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageSize Letter: "<</PageSize[612.0000 792.0000]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageSize Legal: "<</PageSize[612.0000 1008.0000]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageSize A5: "<</PageSize[419.5276 595.2756]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageSize B5: "<</PageSize[515.9055 728.5039]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageSize ISOB5: "<</PageSize[498.8976 708.6614]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageSize Executive: "<</PageSize[522.0000 756.0000]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageSize FanFoldGermanLegal: "<</PageSize[612.0000 936.0000]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageSize 8.5x13.5: "<</PageSize[612.0000 972.0000]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageSize 4x6: "<</PageSize[288.0000 432.0000]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageSize Env10: "<</PageSize[296.9858 684.0000]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageSize EnvC5: "<</PageSize[459.2126 649.1339]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageSize EnvDL: "<</PageSize[311.8110 623.6220]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageSize EnvMonarch: "<</PageSize[278.9858 540.0000]/ImagingBBox null/Orientation 0>>setpagedevice"
+*CloseUI: *PageSize
+
+*OpenUI *PageRegion/Media Size: PickOne
+*OrderDependency: 10 AnySetup *PageRegion
+*DefaultPageRegion: A4
+*PageRegion A4: "<</PageSize[595.2756 841.8898]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageRegion Letter: "<</PageSize[612.0000 792.0000]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageRegion Legal: "<</PageSize[612.0000 1008.0000]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageRegion A5: "<</PageSize[419.5276 595.2756]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageRegion B5: "<</PageSize[515.9055 728.5039]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageRegion ISOB5: "<</PageSize[498.8976 708.6614]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageRegion Executive: "<</PageSize[522.0000 756.0000]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageRegion FanFoldGermanLegal: "<</PageSize[612.0000 936.0000]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageRegion 8.5x13.5: "<</PageSize[612.0000 972.0000]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageRegion 4x6: "<</PageSize[288.0000 432.0000]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageRegion Env10: "<</PageSize[296.9858 684.0000]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageRegion EnvC5: "<</PageSize[459.2126 649.1339]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageRegion EnvDL: "<</PageSize[311.8110 623.6220]/ImagingBBox null/Orientation 0>>setpagedevice"
+*PageRegion EnvMonarch: "<</PageSize[278.9858 540.0000]/ImagingBBox null/Orientation 0>>setpagedevice"
+*CloseUI: *PageRegion
+
+*DefaultImageableArea: A4
+*DefaultPaperDimension: A4
+*PaperDimension A4: "595.2756 841.8898"
+*ImageableArea A4: "12.4724 12.4724 582.8032 829.4174"
+*PaperDimension Letter: "612.0000 792.0000"
+*ImageableArea Letter: "12.4724 12.4724 599.5276 779.5276"
+*PaperDimension Legal: "612.0000 1008.0000"
+*ImageableArea Legal: "12.4724 12.4724 599.5276 995.5276"
+*PaperDimension A5: "419.5276 595.2756"
+*ImageableArea A5: "12.4724 12.4724 407.0552 582.8032"
+*PaperDimension B5: "515.9055 728.5039"
+*ImageableArea B5: "12.4724 12.4724 503.4331 716.0315"
+*PaperDimension ISOB5: "498.8976 708.6614"
+*ImageableArea ISOB5: "12.4724 12.4724 486.4252 696.1890"
+*PaperDimension Executive: "522.0000 756.0000"
+*ImageableArea Executive: "12.4724 12.4724 509.5276 743.5276"
+*PaperDimension FanFoldGermanLegal: "612.0000 936.0000"
+*ImageableArea FanFoldGermanLegal: "12.4724 12.4724 599.5276 923.5276"
+*PaperDimension 8.5x13.5: "612.0000 972.0000"
+*ImageableArea 8.5x13.5: "12.4724 12.4724 599.5276 959.5276"
+*PaperDimension 4x6: "288.0000 432.0000"
+*ImageableArea 4x6: "12.4724 12.4724 275.5276 419.5276"
+*PaperDimension Env10: "296.9858 684.0000"
+*ImageableArea Env10: "12.4724 12.4724 284.5134 671.5276"
+*PaperDimension EnvC5: "459.2126 649.1339"
+*ImageableArea EnvC5: "12.4724 12.4724 446.7402 636.6615"
+*PaperDimension EnvDL: "311.8110 623.6220"
+*ImageableArea EnvDL: "12.4724 12.4724 299.3386 611.1496"
+*PaperDimension EnvMonarch: "278.9858 540.0000"
+*ImageableArea EnvMonarch: "12.4724 12.4724 266.5134 527.5276"
+
