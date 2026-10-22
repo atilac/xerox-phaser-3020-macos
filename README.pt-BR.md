@@ -59,8 +59,10 @@ de Mac em 2014. **A impressora nunca ficou obsoleta — o driver ficou.**
 1. **O Power Saver vem de fábrica em 1 minuto.** A impressora dorme, o rádio
    Wi-Fi desliga e ela some da rede — mas o CUPS continua aceitando o trabalho e
    reportando `successful-ok`. Sintoma: *não imprime nada e não dá erro.*
-   Corrija isso primeiro: interface web → **Properties → General → Power Saver
-   → 60 min**.
+   **Corrija isso primeiro:** interface web → **Properties → General → Power
+   Saver**, e aumente para **60 minutos — o máximo que o firmware permite**.
+   Com qualquer valor menor a impressora continua saindo da rede entre um
+   trabalho e outro, e todos os sintomas acima voltam.
 
 2. **O rádio é só 2.4 GHz** (802.11b/g/n). Num roteador de duas bandas, você
    precisa apertar o botão WPS de **2.4 GHz**. O de 5 GHz nunca vai parear.

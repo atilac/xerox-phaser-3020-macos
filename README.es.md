@@ -60,8 +60,10 @@ controlador sí.**
 1. **El Ahorro de energía viene configurado en 1 minuto.** La impresora se
    duerme, su radio Wi-Fi se apaga y desaparece de la red — pero CUPS sigue
    aceptando el trabajo e informando `successful-ok`. Síntoma: *no imprime nada
-   y no da error.* Corrígelo primero: interfaz web → **Properties → General →
-   Power Saver → 60 min**.
+   y no da error.* **Corrige esto primero:** interfaz web → **Properties →
+   General → Power Saver**, y súbelo a **60 minutos — el máximo que permite el
+   firmware**. Con cualquier valor menor la impresora sigue desapareciendo de
+   la red entre trabajos, y todos los síntomas anteriores vuelven.
 
 2. **La radio es solo de 2.4 GHz** (802.11b/g/n). En un router de doble banda
    tienes que pulsar el botón WPS de **2.4 GHz**. El de 5 GHz nunca emparejará.

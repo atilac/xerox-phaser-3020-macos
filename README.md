@@ -58,7 +58,10 @@ compressed bands rather than a whole page. Xerox kept updating the firmware
 1. **Power Saver ships set to 1 minute.** The printer sleeps, its Wi-Fi radio
    goes down, and it vanishes from the network — but CUPS still accepts the job
    and reports `successful-ok`. Symptom: *prints nothing, reports no error.*
-   Fix it first: web UI → **Properties → General → Power Saver → 60 min**.
+   **Fix this first:** web UI → **Properties → General → Power Saver**, and
+   raise it to **60 minutes — the maximum the firmware allows**. Anything
+   shorter and the printer keeps dropping off the network between jobs, and
+   every symptom above comes back.
 
 2. **The radio is 2.4 GHz only** (802.11b/g/n). On a dual-band router you must
    press the **2.4 GHz** WPS button. The 5 GHz one will never pair.
